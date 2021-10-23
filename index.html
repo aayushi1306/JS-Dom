@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    <script>
+
+
+        // Lets create a i tag 
+        // 2. Variable Initialazation
+
+        i = document.createElement('i');
+        i.setAttribute('class','fas');
+        i.classList.add('fa-home');
+        console.log(i);
+
+        document.body.appendChild(i);
+
+
+
+        // Let's create a head tag 
+
+         let l = document.createElement('link');
+         l.setAttribute('rel','stylesheet');
+         l.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+        console.log(l);
+
+        document.head.appendChild(l);
+
+        //JS Hoisting
+        // You can declarate the variable after the initialazation
+
+
+        // 1.Variable Declaration
+        var i ;
+
+
+    </script>
+</body>
+</html>
